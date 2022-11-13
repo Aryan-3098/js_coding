@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    padding-top: 1rem;
+    background-image: linear-gradient(to right, cadetblue,greenyellow,yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+#con_js{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-image: linear-gradient(to right, cadetblue,greenyellow,yellow );
+
+}
+#js_i img{
+    height: 100px;
+}
+#js{
+    position: relative;
+    left: 15px;
+    font-style: oblique;
+}
+#bar{
+    border: 1px solid grey;
+    height: 10px;
+    width: 50%;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+#bar_in{
+    background-color: cadetblue;
+    width: 50px;
+    height: 10px;
+}
+.box{
+    height: 120px;
+    width: 150px;
+    background-color: #b3ff70;
+    border:2px solid #55b104;
+    display: inline-block;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(32, 95, 205), -10px -10px 20px rgb(32, 95, 205)  ;
+    font-weight: bold;
+}
+#links{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows:repeat(2,auto);
+    grid-gap: 3rem;
+    margin: 10px 30px;
+    padding: 5rem;
+    background-color: cornflowerblue;
+    
+}
+#links a{
+    text-decoration:none;
+    text-align: center;
+    color: black;
+}
+footer{
+    margin: 1rem;
+    float: right;
+}
+@media only screen and (max-width:933px) and (min-width:715px){
+    #links{
+        grid-template-columns: repeat(3,auto);
+    }
+}
+@media only screen and (max-width:714px) and (min-width:510px){
+    #links{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media only screen and (max-width:509px) and (min-width:334px){
+    #links{
+        grid-template-columns: repeat(1,auto);
+    }
+}
+@media only screen and (max-width:333px) and (min-width:100px){
+    #links{
+        grid-template-columns: repeat(1,auto);
+    }
+    .box{
+        width: 120px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Question</title>
+    <link rel="stylesheet" href="style_m.css">
+    <script>
+        function Func() {
+            var x = document.getElementById("out_link");
+            if (x.style.display === "none") {
+            x.style.display = "block";
+            }
+            else {
+            x.style.display = "none";
+            }
+            var b= document.getElementById("button");
+            if (b.innerHTML === "Show"){
+                b.innerHTML = "Hide";
+            }
+            else{
+                b.innerHTML = "Show";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="con_m">
+        <h1>
+            JavaScript Coding Quesions
+        </h1>
+        <div id="con_js">
+            <div id="js_i">
+                <img src="./assests/images/—Pngtree—js file document icon_4172475.png" alt="js">
+                <div id="js">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div id="btn">
+                <button onclick="Func()" id="button">Show</button>
+            </div>
+            <div id="bar">
+                <div id="bar_in">
+    
+                </div>
+                <span>10% Done</span>
+            </div>
+        </div>
+        <div id="out_link" style="display:none ;">
+            <div id="links">
+                <a href="./Operations and Express/op_exp.html">
+                    <div class="box">Operations And Expressions</div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        Descision Making
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        Iterator Statements
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        Arrays
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        Strings
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        Problem Solving
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        Objects
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        Assignments
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>
+            Ⓒ Aryan Purty
+        </h3>
+    </footer>
+</body>
+</html>
