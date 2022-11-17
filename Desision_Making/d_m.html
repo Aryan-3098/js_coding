@@ -17,17 +17,15 @@
         const Calculator = (A, B, C) => {
 	    switch(A){
 	    case "+":
-	        return (B+C)
-	        break;
+	        return (B+C);
 	    case "-":
-	        return (B-C)
-	        break;
+	        return (B-C);
 	    case "*":
-	        return (B*C)
-	        break;
+	        return (B*C);
 	    case "/":
-	        return (B/C)
-	        break;
+	        return (B/C);
+        default:
+            return "Error"
 	    }
     };
     </pre>
@@ -161,7 +159,7 @@
             <h3>9.Check whether the triangle is Acute or Obtuse</h3>
             <pre>
         const Triangle_Check = (A,B,C) => {
-            if(A<90 && B<90 && C<90){
+            if(A<90 && B < 90 && C< 90){
                 return "acute";
             }
             else{
