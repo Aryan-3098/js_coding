@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{background-color:goldenrod;}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin: 8px;
+}
+.con{
+    margin-top:1rem ;
+    border-top: 3px solid grey;
+    box-shadow: -0px -3px 5px rgb(146, 105, 3);
+    background-color: white;
+}
+.box{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.box:hover{
+    transform: translateX(30px);
+}
+#box1{background-color: rgba(255, 255, 55,100%);}
+#box2{background-color: rgba(255, 255, 55,90.91%);}
+#box3{background-color: rgba(255, 255, 55,81.82%);}
+#box4{background-color: rgba(255, 255, 55,72.73%);}
+#box5{background-color: rgba(255, 255, 55,63.64%);}
+#box6{background-color: rgba(255, 255, 55,54.55%);}
+#box7{background-color: rgba(255, 255, 55,45.46%);}
+#box8{background-color: rgba(255, 255, 55,36.37%);}
+#box9{background-color: rgba(255, 255, 55,27.28%);}
+#box10{background-color:rgba(255, 255, 55,18.19%);}
+#box11{background-color:rgba(255, 255, 55,9.1%);}
