@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{background-color:greenyellow;}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin: 8px;
+}
+.con{
+    margin-top:1rem ;
+    border-top: 3px solid rgb(174, 255, 52);
+    box-shadow: -0px -3px 5px rgb(119, 178, 29);
+    background-color: white;
+}
+.box{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.box:hover{
+    transform: translateX(30px);
+}
+#box1{background-color: rgba(169, 255, 31,100%);}
+#box2{background-color: rgba(169, 255, 31,92.31%) ;}
+#box3{background-color: rgba(169, 255, 31,84.62%) ;}
+#box4{background-color: rgba(169, 255, 31,76.93%) ;}
+#box5{background-color: rgba(169, 255, 31,69.24%) ;}
+#box6{background-color: rgba(169, 255, 31,61.55%) ;}
+#box7{background-color: rgba(169, 255, 31,53.86%) ;}
+#box8{background-color: rgba(169, 255, 31,46.17%) ;}
+#box9{background-color: rgba(169, 255, 31,38.14%) ;}
+#box10{background-color: rgba(169, 255, 31,30.79%) ;}
+#box11{background-color: rgba(169, 255, 31,23.1%) ;}
+#box12{background-color: rgba(169, 255, 31,15.41%) ;}
+#box13{background-color: rgba(169, 255, 31,7.72%) ;}
