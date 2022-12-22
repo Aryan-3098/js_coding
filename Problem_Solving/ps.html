@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Solving</title>
+<link rel="stylesheet" href="./style_ps.css">
+</head>
+<body>
+    <h1 style="color: white;">JavaScript Questions</h1>
+    <h2 style="color: white;">Arrays</h2>
+    <div class="con">
+        <div class="box" id="box1">
+            <h3>1.Find the Smaller Angle.</h3>
+    <pre>
+        var Minimal_Angle = (h, m) => 
+        {
+               let hAngle=((h*360)/12+(m*360)/(12*60));
+               let mAngle=((m*360 )/60);
+               let angle=Math.abs(hAngle-mAngle);
+               if(angle>180){
+                 angle=360-angle;
+               }
+               return angle;
+        };
+         
+    </pre>
+        </div>
+        <div class="box" id="box2">
+            <h3>2.Check whether the year is Leap year or not..</h3>
+    <pre>
+ 
+        var Check_Leap = (year) => 
+        {
+         
+          if((year%4===0) && (year%100!==0) && (year%400!==0)){
+            return "Leap Year";
+          }
+          else{
+            return "Non Leap Year";
+          }
+        
+        };
+         
+         
+    </pre>
+        </div>
+        <div class="box" id="box3">
+            <h3>3.Perfect Number Check.</h3>
+    <pre>
+        var Perfect_Check = (N) => 
+        {     
+            let count=0;
+          if(N==1)
+          return "YES"
+          for(let i=2;i< N/2;i++){
+            rem=N%i;
+            if(rem===0){
+              count +=i;
+            }
+          }
+          if(count===N ){
+            return 'YES'
+          }
+         return 'NO'
+        
+        };
+         
+    </pre>
+        </div>
+        <div class="box" id="box4">
+            <h3>4.Reverse a Number.</h3>
+    <pre>
+        var Reverse_Number = (N) => 
+        {
+              var a=0;
+               while(N>0){
+                 var x=N%10;
+                 a=a*10+x
+                 N=parseInt(N/10);
+               }
+            return a;
+        };
+         
+        
+    </pre>
+        </div>
+        <div class="box" id="box5">
+            <h3>5.Substring Check.</h3>
+    <pre>
+        var Substring_Check = (S1, S2) => 
+        {
+           const sArr=S1.split(" ")
+           for(let i=0;i< sArr.length;i++)
+           {
+             if(sArr[i]===S2){
+               return "YES";
+             }
+           }
+          return "NO";
+        
+        };
+         
+    </pre>
+</body>
+</html>
